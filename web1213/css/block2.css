@@ -1,0 +1,36 @@
+/* block2 */
+
+#wrap{
+  background-color: aqua;
+  width: 100%;
+}
+
+.header{
+  background-color: yellow;
+  width: 100%;
+  height: 200px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color:blue;
+  width: 100%;
+  height: 500px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  background-color: green;
+  width: 100%;
+  height: 220px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
