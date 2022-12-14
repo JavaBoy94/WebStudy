@@ -1,0 +1,42 @@
+#wrap{
+  width: 1600px;
+  height: auto;
+  border: 1px solid red;
+  background-color: yellow;
+  margin: auto;
+  
+  font-family: '돋움';
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  
+  text-decoration: underline;
+  
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  background-color: #222222;
+  text-align: left;
+  line-height: 100px;
+  border: 1px solid red;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  background-color: #cccccc;
+  text-align: center;
+  line-height: 400px;
+  border: 1px solid red
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  text-align: right;
+  line-height: 200px;
+  border: 1px solid red
+}
