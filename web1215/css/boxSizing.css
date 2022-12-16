@@ -1,0 +1,27 @@
+.parent{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  color: white;
+}
+
+.border-box{
+  /* border-box => border를 기준으로 width, height 사이즈에 맞춰짐
+  => border, padding 적용시 실제크기가 그만큼 작아짐 */
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 5px solid green;
+  box-sizing: border-box;
+}
+
+.content-box{
+  /* content-box => 내용(content)을 기준으로 width, height 사이즈에 맞춰짐 
+  => 실제크기는 동일
+  => border, padding 적용시 정해진 사이즈에서 오버됨 */
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 5px solid green;
+}

@@ -1,0 +1,51 @@
+@import url(reset.css);   /* reset.css를 임포트 */
+/* inline1 */
+.inline{
+  width: 500px;
+  height: 200px;
+  border: 1px solid red;
+  margin: auto;
+  overflow: hidden;
+}
+
+.inline > a{
+  /* display: block; */
+}
+
+.inline > a:link{
+/* a태그에 링크가 걸려있을 때 설정 */
+background-color: red;
+}
+
+.inline > a:hover{
+/* a태그에 마우스를 올릴 때 설정 => 중요 ! */
+background-color: blue;
+color: yellow;
+text-decoration: underline;
+}
+
+.inline > a:active{
+/* a태그에 마우스를 누를 때 설정 */
+background-color: green;
+color: purple;
+text-decoration: none;
+}
+
+.inline > a:visited{
+/* a태그의 링크 방문 후 설정 */
+background-color: pink;
+color: red;
+text-decoration: none;
+}
+
+.inline > a > img{
+  width: 100px;
+  height: 50px;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+}
+
+span{
+  background-color: yellow;
+}
