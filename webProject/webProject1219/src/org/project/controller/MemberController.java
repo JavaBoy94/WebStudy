@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.catalina.filters.SetCharacterEncodingFilter;
+import org.project.commend.JoinOkDo;
 import org.project.commend.MemberCommend;
 import org.project.commend.MemberDeleteDo;
 import org.project.commend.MemberInsertDo;

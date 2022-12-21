@@ -1,0 +1,26 @@
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+#wrap{
+  width: 100%;
+  height: auto;
+}
+
+/* container */
+.container{
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.join {
+  border: 1px solid red;
+  box-sizing: border-box;
+  height: 600px;
+}
+
+.join-form{
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid red;
+}

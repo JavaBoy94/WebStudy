@@ -6,6 +6,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.project.dao.MemberDao;
+
 public class MemberUpdateDo implements MemberCommend{
 
 	@Override

@@ -1,0 +1,59 @@
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+#wrap{
+  width: 100%;
+  height: auto;
+}
+
+/* container */
+.container{
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.join {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  height: 600px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.join-form{
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+table,tr,td {
+  border: 1px solid red;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.join-form > form > table{
+  width: 100%;
+}
+
+
+.join-form > form > table tr th{
+  background-color: skyblue;
+  color: black;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+#btn{
+  text-align: center;
+  background-color: skyblue;
+}
+
+#memo{
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+}

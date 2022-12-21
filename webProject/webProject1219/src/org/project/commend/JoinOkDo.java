@@ -1,4 +1,4 @@
-package org.project.controller;
+package org.project.commend;
 
 import java.io.IOException;
 
@@ -6,7 +6,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.project.commend.MemberCommend;
 import org.project.dao.MemberDao;
 
 public class JoinOkDo implements MemberCommend {

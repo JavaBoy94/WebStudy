@@ -1,14 +1,11 @@
 
 /* Drop Tables */
 
-DROP TABLE Member1219 CASCADE CONSTRAINTS;
-
-
-
+DROP TABLE Member1220 CASCADE CONSTRAINTS;
 
 /* Create Tables */
 
-CREATE TABLE Member1219
+CREATE TABLE Member1220
 (
 	userid varchar2(10 char) NOT NULL,
 	userpw varchar2(10 char) NOT NULL,
@@ -16,9 +13,9 @@ CREATE TABLE Member1219
 	PRIMARY KEY (userid)
 );
 
-select * from member1219;   
+select * from member1220;   
 
-create table test_tb_1219(
+create table test_tb_1220(
     userId varchar2(10) not null primary key,
     userPw varchar2(10) not null,
     userName varchar2(20) not null,
@@ -28,9 +25,9 @@ create table test_tb_1219(
     memo varchar2(255) not null
 );
 
-select * from test_tb_1219;
+select * from test_tb_1220;
 
-drop table test_tb_1219;
+drop table test_tb_1220;
 
 commit;
 
