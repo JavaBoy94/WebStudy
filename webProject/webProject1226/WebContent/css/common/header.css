@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* header */
+.header{
+	width: 100%;
+	height: auto;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+	padding: 20px 0;
+	background-color: #cccccc;
+	
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: center;
+	
+}
+
+.header > .nav{
+	/* width: 100%;
+	max-width: 1200px;
+	margin: auto; */
+	width : 1200px;
+	height: auto;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+	background-color: white;
+	opacity: 70%;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.header > .nav > h1.logo{
+	width: 100px;
+	height: auto;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 80px;
+	background-color: black;
+}
+
+.header > .nav > h1.logo a{
+	color: white;
+}
+
+.header > .nav > .gnb{
+	width: 500px;
+	height: auto;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+	
+}
+
+.header > .nav > .gnb > ul{
+	text-align: center;
+	line-height: 80px;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.header > .nav > .gnb > ul > li{
+	width: 20%;
+	line-height: 80px;
+	/* border: 1px solid red; */
+	box-sizing: border-box;
+	/* background-color: blue; */
+}
+
+.header > .nav > .gnb > ul > li:hover{
+	background-color: black;
+}
+
+
+.header > .nav > .gnb > ul > li > a:hover{
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
